@@ -1,7 +1,7 @@
 while True:
     try:
         numb = int(input('Введите четырехзначное число'))
-        if numb>9999:
+        if numb>9999 or numb<1:
                print('Некорректное число, введите новое')
         else:
             break
